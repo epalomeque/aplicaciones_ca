@@ -98,6 +98,7 @@ class prog_corazon_amigo(models.Model):
     VIV_NCDORMIR = models.IntegerField(1),
     VIV_COCINA = models.CharField(max_length=1, default='0'),
     VIV_FOGON = models.CharField(max_length=1, default='0'),
+'''
 VIV_ESTUFA = models.CharField(max_length=XX)(1)
 DEFAULT
 '0'
